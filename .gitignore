@@ -1,2 +1,57 @@
-# Project exclude paths
-/dist/
+# Deps
+node_modules/
+
+# Build Vite Output
+dist/
+dist-ssr/
+*.local
+
+# Vite Cache
+.vite/
+vite.config.*.timestamp-*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+bun-debug.log*
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# File IDE / Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*.sublime*
+
+# OS Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+test-results/
+
+# Other Cache
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+
+# Bun
+bun.lock
+
+# Temporary File
+*.bak
+*.tmp
+*.old
